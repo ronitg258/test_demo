@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employees>
+	<employee>
+		<id>101</id>
+		<firstName>Ravish</firstName>
+		<lastName>Kumar</lastName>
+		<category>Developer</category>
+		<bonus>5000</bonus>
+	</employee>
+	<employee>
+		<id>102</id>
+		<firstName>Rajni</firstName>
+		<lastName>Khandelwal</lastName>
+		<category>HR</category>
+		<bonus>4000</bonus>
+	</employee>
+</employees>
