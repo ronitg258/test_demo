@@ -1,0 +1,389 @@
+body{
+	margin: 0px;
+}
+#video{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+}
+#video video{
+	position: absolute;
+	object-fit: cover;
+	width: 100%;
+	height: 94%;
+	top: 0;
+}
+#footer{
+	background-color: #3495eb;
+	height: 130px;
+}
+.logo{
+	width: 25%;
+	margin-left: 8%;
+	float: left;
+}
+.copyright{
+	width: 30%;
+	margin-left: 8%;
+	margin-top: 3.5%;
+	float: left;
+	color: #ffffff
+}
+.icons{
+	width: 15%;
+	margin-top: 2%;
+	margin-right: 8%;
+	float: right;
+}
+.icons li, a{
+	list-style: none;
+	text-decoration: none;
+	font-size: 30px;
+	display: inline;
+	color: #ffffff
+}
+.icons a:hover{
+	color: blue;
+	text-decoration: none;
+}
+.content{
+	z-index: 1;
+	width: 100%;
+	height: 90vh;
+}
+.logo1{
+	width: 15%;
+	margin-left: 6%;
+	float: left;
+	cursor: pointer;
+}
+.headerbutton{
+	float: right;
+	margin-top: 30px;
+	margin-right: 6%;
+}
+.button{
+	border-radius: 6px;
+	background-color: transparent;
+	font-size: 22px;
+	padding: 20px 18px;
+	color: white;
+	border-color: white; 
+	border-style: solid;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.headerbutton a{
+	text-decoration: none;
+	color: white;
+}
+.intro{
+	z-index: 1;
+	width: 100%;
+	float: left;
+	margin-top: 5%;
+	margin-left: 8%;
+}
+.intro h1, h2, h4{
+	color: white;
+}
+.intro h2{	
+	letter-spacing: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	margin-block-start: 0.20em;
+	margin-block-end: 0.20em;
+}
+.intro h1{
+	font-weight: bold;
+	font-size: 54px;
+	font-family: "Arial Rounded MT Bold", sans-serif;
+	margin-block-start: 0.20em;
+	margin-block-end: 0.20em;
+	letter-spacing: 2px;
+}
+.intro h4{
+	margin-block-start: 0.20em;
+	margin-block-end: 0.20em;
+	line-height: 25px;
+	font-size: 16px;
+}
+.button1{
+	border-radius: 6px;
+	margin-top: 30px;
+	background-color: white;
+	font-size: 18px;
+	padding: 20px 18px;
+	color: #3495eb;
+	border-color: white; 
+	border-style: solid;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	display: block;
+	width: 180px;
+}
+.intro a:hover{
+	border-radius: 6px;
+	margin-top: 30px;
+	background-color: white;
+	font-size: 22px;
+	padding: 17px 18px;
+	color: #3495eb;
+	border-color: white; 
+	border-style: solid;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	display: block;
+	width: 240px;
+	letter-spacing: 3px;
+	text-decoration: none;
+}
+.card-img-bottom{
+	width: 70%;
+}
+.card-group{
+	margin: auto;
+	box-shadow: 20px 20px 30px grey;
+	height: 180px;
+	margin-top: -100px;
+	margin-bottom: 60px;
+}
+.card{
+	display: inline;
+	border: 1px solid white;
+	padding-bottom: 15px;
+}
+.card-body>h5{
+	padding: 10px;
+	border-radius: 15px;
+}
+#getintouch{
+	height: 580px;
+	padding: 70px 110px;
+}
+.leftgetintouch{
+	float: left;
+	width: 40%;
+}
+.leftgetintouch ul{
+	padding: 0px;
+}
+.leftgetintouch li{
+	list-style: none;
+}
+.leftgetintouch>h5{
+	padding: 10px;
+	border-radius: 25px;
+	width: 150px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.leftgetintouch>h1{
+	padding: 4px 0px;
+}
+.leftgetintouch>ul>li{
+	color: #3495eb;
+}
+.leftgetintouch>ul>li>i{
+	font-size: 28px;
+}
+.rightgetintouch{
+	float: left;
+	width: 60%;
+	margin-top: 150px;
+}
+.rightgetintouch button:hover{
+	background-color: white;
+	color: gray;
+}
+#inputform1{
+	width: 49%;
+}
+#inputform2{
+	width: 49%;
+}
+input[type="text"]:focus{
+	border-color: black;
+}
+input[type="email"]:focus{
+	border-color: black;
+}
+#exampleFormControlTextarea1:focus{
+	border-color: black;
+}
+#whatwedo{
+	height: 680px;
+	padding: 70px 110px;
+}
+.upperwhatwedo{
+	padding: 10px 100px;
+}
+.upperwhatwedo h5{
+	padding: 10px;
+	border-radius: 25px;
+	width: 150px;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-inline-start: 23em;
+}
+.upperwhatwedo h6{
+	text-align: center;
+    font-size: 14px;
+    margin: 24px 0px;
+}
+.upperwhatwedo a{
+	text-decoration: none;
+	color: white;
+}
+.button3{
+	border-radius: 6px;
+	background-color: #3477eb;
+	font-size: 22px;
+	padding: 20px 40px;
+	color: white;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-inline-start: 20.5em;
+	line-height: 4;
+}
+.lowerwhatwedo{
+	margin-top: 20px;
+}
+.lowerwhatwedo h5{
+	text-align: left;
+}
+.lowerwhatwedo hr{
+	background-color: #3495eb;
+}
+.lowerwhatwedo .card-deck .card{
+	border-radius: 20px;
+	height: 240px;
+	display: flex;
+	background-color: #a7d6f2;
+}
+#workculture{
+	background-color: #c7e2f2;
+	height: 630px;
+	padding: 70px 110px;
+}
+.leftworkculture{
+	float: left;
+	width: 50%;
+}
+.rightworkculture{
+	float: left;
+	width: 50%;
+	margin-top: 70px;
+}
+.rightworkculture img{
+	width: 520px;
+	height: 360px;
+	float: right;
+}
+.leftworkculture>h5{
+	padding: 10px;
+	border-radius: 25px;
+	width: 150px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.leftworkculture .card-columns .card{
+	border-radius: 20px;
+	height: 160px;
+	display: inline-block;
+	background-color: transparent;
+	width: 250px;
+	border: none;
+	font-size: 15px; 
+}
+.leftworkculture .card-columns .card:hover{
+	background-color: white;
+}
+.leftworkculture .card-columns{
+	margin-top: 40px;
+	width: 735px;
+}
+.leftworkculture .card-columns .card-title{
+	margin-bottom: 0px;
+	padding: 0px 0px 10px 0px;
+}
+.joinus .button{
+	border-radius: 6px;
+	background-color: transparent;
+	font-size: 22px;
+	padding: 20px 48px;
+	color: #3477eb;
+	border-color: #3477eb; 
+	border-style: solid;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.joinus a{
+	text-decoration: none;
+	color: #3477eb;
+}
+#leadership{
+	background-color: #3495eb;
+	height: 620px;
+	padding: 90px 110px;
+}
+.leftleadership h5{
+	padding: 10px;
+	border-radius: 25px;
+	width: 150px;
+	text-align: center;
+	margin-bottom: 30px;
+	color: white;
+}
+.leftleadership h6{
+	color: white;
+}
+.leftleadership{
+	width: 30%;
+	padding-top: 130px;
+	height: 440px;
+	background-color: transparent;
+	float: left;
+}
+.rightleadership{
+	width: 70%;
+	height: 440px;
+	float: left;
+}
+.rightleadership .card-deck .card{
+	margin: 0px 50px 0px 80px;
+	height: 440px;
+	border-radius: 20px;
+	border: none;
+	background-color: #4bafeb;
+}
+.rightleadership img{
+	border-radius: 20px;
+	height: 340px;
+}
+.rightleadership p{
+	color: white;
+	margin-bottom: 0px;
+	display: block;
+	width: 50%;
+}
+.rightleadership .card-deck .card .card-body{
+	padding: 15px;
+}
+.card i{
+	margin-right: 2%;
+	float: right;
+	font-size: 25px;
+	display: inline;
+	color: #3495eb;
+	margin-top: -7%;
+}
+.card a:hover{
+	color: #3495eb;
+	text-decoration: none;
+}
